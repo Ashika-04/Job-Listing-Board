@@ -33,3 +33,13 @@ The objective of this project is to create a user-friendly job portal where empl
     1. Register/Login to apply for jobs.
     1. Search and filter job listings.
     1. Save favorite jobs for later.
+
+
+## Layout
+
+ <img src="Images\JobConnect - Login_Signup Page.png">
+<img src="Images\CareerHub - Job Portal Homepage.png">
+ <img src="Images\JobLink - Application Form.png"/>
+ <img src="Images\JobSphere - Application Form.png"/>
+ <img src="Images\JobLink - About Us.png"/>
+    
