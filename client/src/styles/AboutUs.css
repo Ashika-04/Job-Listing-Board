@@ -1,0 +1,185 @@
+/* About Us Page Styles */
+.about-container {
+  font-family: "Arial", sans-serif;
+  color: #2c2f40; /* Dark Gray */
+}
+
+/* Hero Section */
+.about-hero {
+  background-image: url("https://source.unsplash.com/1600x900/?team,office");
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.about-hero-content {
+  background: rgba(52, 20, 95, 0.7); /* Deep Purple Overlay */
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.about-hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #f4f0ff; /* Light Purple */
+}
+
+.about-hero-content p {
+  font-size: 1.2rem;
+}
+
+/* Mission & Vision Section */
+.mission-vision {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f4f0ff; /* Light Purple */
+}
+
+.mission, .vision {
+  width: 45%;
+}
+
+.mission h2, .vision h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #6d28d9; /* Deep Purple */
+}
+
+.mission p, .vision p {
+  font-size: 1.1rem;
+  color: #2c2f40;
+}
+
+/* Meet the Team */
+.team-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.team-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #6d28d9; /* Deep Purple */
+}
+
+.team-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.team-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+}
+
+.team-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 3px solid #6d28d9; /* Deep Purple */
+}
+
+.team-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #6d28d9; /* Deep Purple */
+}
+
+.team-card p {
+  font-size: 1rem;
+  color: #2c2f40;
+}
+
+/* Success Stories */
+.success-stories {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f4f0ff; /* Light Purple */
+}
+
+.success-stories h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #6d28d9; /* Deep Purple */
+}
+
+.testimonial {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #2c2f40;
+}
+
+.testimonial h4 {
+  font-size: 1rem;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #6d28d9;
+}
+
+/* Call to Action */
+.cta-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.cta-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #6d28d9; /* Deep Purple */
+}
+
+.cta-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #2c2f40;
+}
+
+.cta-button {
+  background-color: #6d28d9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #4c1d95; /* Darker Purple */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .mission-vision {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mission, .vision {
+    width: 90%;
+  }
+
+  .team-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,136 @@
+/* Job Listings Page Styles */
+.job-listings-container {
+  font-family: "Arial", sans-serif;
+  color: #2C0D4E;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #6D28D9;
+}
+
+/* Filter Section */
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filters input,
+.filters select {
+  width: 48%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #34145F;
+  border-radius: 5px;
+  background-color: #D5C7FF;
+  color: #2C0D4E;
+}
+
+/* Job Cards */
+.job-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.job-card {
+  background: #F4F0FF;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+}
+
+.company-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.job-card h2 {
+  font-size: 1.4rem;
+  color: #6D28D9;
+}
+
+.company-name {
+  font-size: 1.1rem;
+  color: #5A3E85;
+}
+
+.job-location {
+  font-size: 1rem;
+  color: #6D28D9;
+}
+
+.salary {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #28A745;
+}
+
+.job-type {
+  display: inline-block;
+  background: #6D28D9;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.description {
+  font-size: 0.9rem;
+  margin: 10px 0;
+  color: #5A3E85;
+}
+
+.view-details {
+  display: inline-block;
+  background: #6D28D9;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.view-details:hover {
+  background: #34145F;
+}
+
+/* No Results Message */
+.no-results {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #888;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+  }
+
+  .filters input,
+  .filters select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

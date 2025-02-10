@@ -1,0 +1,139 @@
+/* Dashboard Styles */
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background: #3a0ca3;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #5a189a;
+}
+
+.sidebar ul li:hover,
+.sidebar ul li.active {
+  background: #9d4edd;
+  transition: 0.3s;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  background: #f8f0fc;
+}
+
+h3 {
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+table th, table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table th {
+  background: #7209b7;
+  color: white;
+}
+
+table td button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.edit {
+  background: #ff8800;
+}
+
+.delete {
+  background: #d00000;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Profile Settings Form */
+.profile-form {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.profile-form label {
+  display: block;
+  margin-top: 10px;
+  color: #3a0ca3;
+}
+
+.profile-form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #7209b7;
+  border-radius: 5px;
+  background-color: #e0aaff;
+  color: #3a0ca3;
+}
+
+.save-btn {
+  margin-top: 15px;
+  padding: 10px;
+  background: #4361ee;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background: #3a0ca3;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .dashboard {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    text-align: center;
+  }
+
+  .sidebar ul li {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+  }
+}
