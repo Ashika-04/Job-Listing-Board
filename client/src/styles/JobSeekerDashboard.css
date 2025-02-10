@@ -1,0 +1,103 @@
+/* Job Seeker Dashboard Styles */
+.jobseeker-dashboard {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #4B0082; /* Deep Purple */
+  margin-bottom: 20px;
+}
+
+.dashboard-section {
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: #6D28D9; /* Bright Purple */
+  border-bottom: 2px solid #8A2BE2; /* Medium Purple */
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.job-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #EDE9FE; /* Light Purple */
+  padding: 12px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.job-title {
+  font-weight: bold;
+  color: #4B0082; /* Deep Purple */
+}
+
+.company-name {
+  color: #6B7280; /* Grayish Purple */
+}
+
+.job-status {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.job-status.pending {
+  background: #D97706; /* Amber */
+  color: white;
+}
+
+.job-status.interview-scheduled {
+  background: #16A34A; /* Green */
+  color: white;
+}
+
+.remove-btn {
+  background: #DC2626; /* Red */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.remove-btn:hover {
+  background: #B91C1C; /* Darker Red */
+}
+
+.upload-input {
+  margin-top: 10px;
+  display: block;
+}
+
+.upload-btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #6D28D9; /* Bright Purple */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upload-btn:hover {
+  background: #5B21B6; /* Darker Purple */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .jobseeker-dashboard {
+      width: 90%;
+  }
+}

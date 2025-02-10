@@ -1,0 +1,133 @@
+/* Job Details Page Styles */
+.job-details-container {
+  font-family: "Arial", sans-serif;
+  color: #2C0D4E; /* Dark Purple */
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #F4F0FF; /* Light Purple Background */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Job Header */
+.job-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #D5C7FF; /* Soft Purple Border */
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.company-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.job-header h1 {
+  font-size: 1.8rem;
+  color: #6D28D9; /* Deep Purple */
+}
+
+.job-header h3 {
+  font-size: 1.2rem;
+  color: #4A148C; /* Muted Dark Purple */
+}
+
+.salary {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.job-type {
+  background: #6D28D9; /* Deep Purple */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+/* Job Description Section */
+.job-description,
+.job-responsibilities,
+.job-requirements,
+.company-info {
+  margin-bottom: 20px;
+}
+
+.job-description h2,
+.job-responsibilities h2,
+.job-requirements h2,
+.company-info h2 {
+  font-size: 1.5rem;
+  border-left: 5px solid #6D28D9; /* Deep Purple Border */
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+ul li {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+/* Job Actions */
+.job-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.apply-button {
+  background: #6D28D9; /* Deep Purple Button */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.apply-button:hover {
+  background: #34145F; /* Darker Purple Hover */
+}
+
+.save-button {
+  background: #4A148C; /* Muted Dark Purple */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.save-button:hover {
+  background: #2C0D4E; /* Darker Purple Hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .job-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .company-logo {
+    margin-bottom: 10px;
+  }
+
+  .job-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

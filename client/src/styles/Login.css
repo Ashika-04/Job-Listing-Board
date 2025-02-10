@@ -1,0 +1,146 @@
+/* Login Page Styles */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #eceaff;
+}
+
+.login-box {
+  background: white;
+  padding: 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 350px;
+  text-align: center;
+}
+
+h2 {
+  color: #4b0082;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #4b0082;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #a78bfa;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.login-btn {
+  width: 100%;
+  background: #6a0dad;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.login-btn:hover {
+  background: #4b0082;
+}
+
+.forgot-password {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.forgot-password a {
+  color: #6a0dad;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.register-link {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.register-link a {
+  color: #8a2be2;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+/* Social Login Buttons */
+.social-login {
+  margin-top: 20px;
+}
+
+.social-login p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.google-btn,
+.linkedin-btn,
+.github-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 5px 0;
+  transition: background 0.3s;
+}
+
+.google-btn {
+  background: #ea4335;
+  color: white;
+}
+
+.google-btn:hover {
+  background: #c1351c;
+}
+
+.linkedin-btn {
+  background: #6a0dad;
+  color: white;
+}
+
+.linkedin-btn:hover {
+  background: #4b0082;
+}
+
+.github-btn {
+  background: #333;
+  color: white;
+}
+
+.github-btn:hover {
+  background: #1b1f23;
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+  .login-box {
+    width: 90%;
+    padding: 20px;
+  }
+}

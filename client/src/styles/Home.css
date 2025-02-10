@@ -1,0 +1,202 @@
+/* Home Page Styles */
+.home-container {
+  font-family: 'Arial', sans-serif;
+  color: #2d2d2d;
+}
+
+/* Hero Section */
+.hero-section {
+  background-image: url('https://source.unsplash.com/1600x900/?technology,work');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content {
+  background: rgba(50, 10, 90, 0.7); /* Deep Purple Overlay */
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #E0AAFF; /* Light Purple */
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #F8F9FA;
+}
+
+.search-form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search-form input,
+.search-form select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #9D4EDD; /* Purple Border */
+  background-color: #EDE7F6; /* Light Purple Background */
+  color: #4A148C; /* Dark Purple Text */
+}
+
+.search-form input::placeholder {
+  color: #7B1FA2; /* Medium Purple Placeholder */
+}
+
+.search-form button {
+  background-color: #6A0572; /* Rich Purple */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #4A148C; /* Darker Purple */
+}
+
+/* Featured Jobs */
+.featured-jobs {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.featured-jobs h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #4A148C; /* Dark Purple */
+}
+
+.job-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.job-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.job-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #6A0572; /* Purple */
+}
+
+.job-card p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.job-card button {
+  background-color: #6A0572; /* Purple */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.job-card button:hover {
+  background-color: #4A148C; /* Darker Purple */
+}
+
+/* Top Hiring Companies */
+.top-companies {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #EDE7F6; /* Light Purple */
+}
+
+.top-companies h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #4A148C;
+}
+
+.companies-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.companies-grid img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #6A0572; /* Purple Border */
+}
+
+/* Call to Action Section */
+.cta-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.cta-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #4A148C;
+}
+
+.cta-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.post-job-btn {
+  background-color: #6A0572; /* Purple */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.post-job-btn:hover {
+  background-color: #4A148C; /* Darker Purple */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-content {
+      max-width: 90%;
+  }
+
+  .search-form {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .job-list {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .companies-grid {
+      flex-direction: column;
+      align-items: center;
+  }
+}

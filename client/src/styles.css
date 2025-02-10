@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .navbar {
+    background-color: #6200ea;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar ul li {
+    display: inline;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .home {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .home button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .job-listings {
+    text-align: center;
+  }
+  
+  .job-listings ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .job-listings li {
+    background: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .login-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .login-container input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .login-container button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
